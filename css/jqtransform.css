@@ -1,0 +1,119 @@
+.jqTransformRadio, a.jqTransformCheckbox {
+	vertical-align: middle;
+	height: 19px;
+	width: 18px;
+	display: block
+}
+table.jqTransformTextarea .jqTransformSafariTextarea div {
+	position: relative;
+	overflow: hidden;
+	border: 0 solid red
+}
+table.jqTransformTextarea .jqTransformSafariTextarea textarea {
+	background: 0 0;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	padding: 10px;
+	resize: none
+}
+.jqTransformRadioWrapper {
+	float: left;
+	display: block;
+	margin: 5px 4px 0
+}
+span.jqTransformCheckboxWrapper {
+	display: block;
+	float: left;
+	margin-top: 5px
+}
+a.jqTransformChecked {
+	background-position: center bottom
+}
+.jqTransformSelectWrapper {
+	width: 86px!important;
+	position: relative;
+	height: auto;
+	float: left;
+	text-align: left;
+	border: 0;
+	z-index: inherit!important;
+	color: #fff
+}
+.jqTransformSelectWrapper div {
+	width: 100%;
+	height: auto
+}
+.jqTransformSelectWrapper div span {
+	width: 100%!important;
+	font-size: 11px;
+	float: none;
+	white-space: nowrap;
+	height: auto;
+	line-height: 15px;
+	padding: 0 18px 0 0;
+	overflow: hidden;
+	cursor: pointer;
+	left: 0;
+	color: #fff;
+	right: 0;
+	display: block
+}
+.jqTransformSelectWrapper a.jqTransformSelectOpen {
+	display: block;
+	height: auto;
+	position: relative;
+	right: auto;
+	top: auto;
+	width: 100%;
+	color: #fff
+}
+.inline-menu3 .jqTransformSelectWrapper a.jqTransformSelectOpen {
+	display: block;
+	height: 31px;
+	position: absolute;
+	right: 0;
+	top: 16px;
+	width: 31px;
+	background: url(../images/select-arrow-black.png) no-repeat
+}
+.inline-menu3 .jqTransformSelectWrapper div span {
+	padding: 12.2px 15px;
+	height: auto
+}
+.jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 101%!important;
+	top: 26px;
+	left: -1px;
+	list-style: none;
+	border: 1px solid #d1d3d4;
+	background: rgba(203,158,93,1);
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: auto!important;
+	overflow: auto;
+	overflow-y: auto;
+	z-index: 10
+}
+.jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #FFF;
+	font-size: 12px;
+	line-height: 35px
+}
+.jqTransformSelectWrapper ul a.selected {
+	background: #cb9e5d;
+	color: #fff
+}
+.jqTransformSelectWrapper ul a.selected:hover, .jqTransformSelectWrapper ul a:hover {
+	background: #EDEDED;
+	color: #000
+}
+.jqTransformHidden {
+	display: none
+}

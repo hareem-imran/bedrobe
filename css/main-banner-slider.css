@@ -1,0 +1,157 @@
+.cycle-gallery .slide .middle-info h2, .cycle-gallery .slide .middle-info p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Gill Sans MT";
+}
+
+.cycle-gallery .slide .middle-info h1:after, .cycle-gallery .slide .middle-info h1:before {
+    content: "";
+    left: 0;
+    right: 0;
+    background: #000;
+    height: 0;
+    position: absolute;
+}
+
+.cycle-gallery {
+    position: relative;
+}
+
+    .cycle-gallery .mask {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .cycle-gallery .slideset {
+        width: 99999px;
+        float: left;
+    }
+
+    .cycle-gallery .slide {
+        float: left;
+        width: 100%;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% auto !important;
+        display: block !important;
+        height: 80vh;
+    }
+
+    .cycle-gallery .mask .slide.active {
+        z-index: 1;
+    }
+
+    .cycle-gallery .slide .middle-info {
+        top: auto;
+        bottom: 13%;
+        position: absolute;
+        width: auto;
+        transform: none;
+        text-align: center;
+    }
+
+        .cycle-gallery .slide .middle-info h1 {
+            font-family: "Gill Sans MT";
+            font-size: 91px;
+            line-height: 91px;
+            padding: 0;
+            position: relative;
+        }
+
+        .cycle-gallery .slide .middle-info h2 {
+            font-size: 77px;
+            font-weight: 400;
+            line-height: 77px;
+        }
+
+        .cycle-gallery .slide .middle-info p {
+            font-size: 25px;
+            margin: 12px 0 20px;
+        }
+
+        .cycle-gallery .slide .middle-info h1:before {
+            top: 0;
+        }
+
+        .cycle-gallery .slide .middle-info h1:after {
+            bottom: 0;
+        }
+
+.pagination {
+    bottom: 8%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+    .pagination ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        .pagination ul li {
+            margin: 0 5px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .pagination ul li a {
+                background: 0 0;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                cursor: pointer;
+                display: block;
+                height: 13px;
+                text-indent: -999em;
+                width: 13px;
+            }
+
+            .pagination ul li.active a {
+                cursor: default;
+                background: #fff;
+            }
+
+@media all and (max-width:1000px) {
+    .cycle-gallery .slide .middle-info h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .cycle-gallery .slide .middle-info h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .cycle-gallery .slide .middle-info p {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .cycle-gallery .slide {
+        height: 56vh;
+    }
+
+    .pagination {
+        bottom: 5px;
+    }
+
+        .pagination ul li {
+            margin: 0 2px;
+        }
+
+            .pagination ul li a {
+                width: 10px;
+                height: 10px;
+            }
+}
+@media only screen and (min-width:601px) and (max-width:767px) {
+     .cycle-gallery .slide {
+        height: 80vh;
+    }
+}

@@ -1,0 +1,128 @@
+#click-dex .clickdesk-lighten .cd-bar{
+	
+	width: 200px !important;
+	border:0 !important;
+	text-align: left !important;
+	font-size: 13px !important;
+	padding:5px 10px !important;
+	background:#bb0d00 url(../images/chat.png) no-repeat 192px center !important;
+	box-shadow: none !important;
+}
+
+#click-dex #clickdesk_header{
+	background-color:#bb0d00 !important;
+	height: 40px !important;
+	position: relative !important;
+}
+#click-dex #clickdesk_header:before{
+	content: 'Leave us a message!';
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 13px;
+	color: #fff;
+	
+}
+#click-dex .clickdesk-lighten .cd-chat-inner{
+	border-top: 1px solid #bb0d00 !important;
+	border-right: 1px solid #bb0d00 !important;
+	border-left: 1px solid #bb0d00 !important;
+	border-bottom:0 !important;
+	background-color: #fff !important;
+	border-radius: 0 !important;
+	
+}
+#click-dex .clickdesk-lighten .cd-chat-inner a.cd-close-btn{
+	
+	background: none !important;
+    border-radius: 0 !important;
+    height: 40px !important;
+    right: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+    width: 300px !important;
+	z-index: 99999 !important;
+	
+	
+}
+#click-dex .clickdesk-lighten .cd-chat-inner a.cd-close-btn:before{
+	content: 'X';
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    background: none;
+    right: 15px;
+    top: 11px;
+    color: #fff;
+    font-size: 15px;
+}
+#click-dex .clickdesk-lighten .cd-chat-inner .cd-chat-inner-body{
+	padding:10px !important;
+}
+#click-dex .cd-form-sec .cd-form-text{
+	width: 100% !important;
+	height: 30px !important;
+	border: 1px solid #ddd !important;
+	text-indent: 10px !important;
+	line-height: 30px !important;
+	border-radius: 0 !important;
+	padding:0 !important;
+	
+}
+#click-dex .cd-form-sec textarea{
+	width: 100% !important;
+	height: 100px !important;
+	border: 1px solid #ddd !important;
+	text-indent: 10px !important;
+	line-height: 30px !important;
+	border-radius: 0 !important;
+	padding:0 !important;
+	
+}
+#click-dex .clickdesk-lighten .cd-chat-inner .cd-form-sec p{
+	margin: 0 !important
+		
+}
+#click-dex .clickdesk-lighten .cd-chat-inner .cd-form-sec input.cd-chat-button, .clickdesk-lighten .cd-chat-inner .cd-form-sec input.cd-chat-button:hover{
+	background: #bb0d00 none repeat scroll 0 0 !important;
+    border: 0 none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    display: block !important;
+    float: right !important;
+    font-size: 13px !important;
+    line-height: 35px !important;
+    margin: 15px 0 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    width: 150px !important;
+	
+}
+#click-dex .clickdesk-lighten .cd-chat-inner .cd-form-sec .cd-errordiv{
+	
+}
+#click-dex #ClickDesk_Dragger{
+	display:none !important;
+}
+@media all and (max-width: 767px) {
+	
+#click-dex .clickdesk-lighten .cd-bar{
+width: 30px !important;
+	height: 38px !important;
+	border:0 !important;
+	text-align: left !important;
+	font-size: 13px !important;
+	padding:5px 10px !important;
+	background:#bb0d00 url(../images/chat.png) no-repeat center center !important;
+	box-shadow: none !important;
+	overflow: hidden;
+	font-size: 0 !important;
+	border-radius: 50% !important;
+	bottom: 20px !important;
+	right: 5px !important;
+}
+#click-dex #clickdesk_popup {
+    margin: 0 2px !important;
+}
+}

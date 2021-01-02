@@ -1,0 +1,2087 @@
+.btn-filter, .scrollbtn {
+	text-transform: uppercase;
+	text-align: center
+}
+.header-home, .shop-button:before, .social-area:after, .two-banners .btn-default:before, .two-banners .kids-banner .text:before, .two-banners.banner4:before, .two-banners:after {
+	content: ''
+}
+.slick-arrow {
+	position: absolute;
+	left: 38px;
+	top: 50%;
+	background: url(images/arrows-left1.png) no-repeat #fff;
+	width: 35px;
+	height: 35px;
+	background-size: 35px auto;
+	text-indent: -9999px;
+	border: 0;
+	z-index: 99;
+	margin-top: -61px
+}
+.slick-arrow.slick-next {
+	left: auto;
+	right: 38px;
+	background: url(images/arrows-right1.png) no-repeat #fff;
+	background-size: 35px auto
+}
+.btn-filter {
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	color: #000018;
+	cursor: pointer;
+	display: none;
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: 700;
+	height: 50px;
+	transition: all .2s ease-in-out 0s
+}
+.btn-filter:hover {
+	background: #6d548d;
+	border-color: #6d548d;
+	color: #fff
+}
+.scrollbtn {
+	background: url(../images/scrool-bottom.png) center bottom no-repeat;
+	bottom: 15px;
+	color: #8b8f9d;
+	font-family: "Gill Sans MT";
+	font-size: 12px;
+	left: 0;
+	margin: auto;
+	padding-bottom: 30px;
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+	text-shadow: 1px 5px 9px #999
+}
+.middle-info h1, .middle-info p {
+	color: #fff;
+	font-family: "Gill Sans MT"
+}
+.header-slider {
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	margin: 0 auto 21px
+}
+.inner-slide, .inner-slide a {
+	height: 77.7vh;
+	display: block!important
+}
+.header-slider .flex-control-nav {
+	padding: 0 10px;
+	bottom: 20px
+}
+#header-wrapper .header-section {
+	max-width: 100%;
+	width: 96%;
+	margin: auto
+}
+#header-wrapper .header-home {
+	max-width: 100%;
+	width: 100%
+}
+.full-link {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 999
+}
+.inner-slide, .middle-info {
+	position: fixed;
+	right: 0;
+	left: 0
+}
+.inner-slide {
+	text-align: center
+}
+.inner-slide a {
+	background-repeat: no-repeat!important;
+	background-size: 100% auto!important;
+	background-position: center center!important
+}
+.middle-info {
+	top: 38%;
+	margin: auto;
+	width: 555px;
+	transform: translateY(-50%)
+}
+.middle-info h1, .shop-button {
+	position: relative;
+	text-transform: uppercase
+}
+.middle-info h1 {
+	font-size: 50px;
+	margin: 0;
+	padding: 15px 0
+}
+.middle-info p {
+	font-size: 17px;
+	line-height: 24px;
+	margin: 15px 0
+}
+.shop-button {
+	display: block;
+	max-width: 132px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8px 26px 6px 8px;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	font: 14px/18px "Gill Sans MT";
+	transition: all .3s ease;
+	color: #333;
+	letter-spacing: normal;
+	background: #fff
+}
+.shop-button:before {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 5px solid transparent;
+	border-left: 5px solid #333;
+	z-index: 10;
+	margin: 0 6px 0 0
+}
+.shop-button:hover {
+	background: #6d548d;
+	color: #fff;
+	border-color: #6d548d
+}
+.shop-button:hover:before {
+	border: 5px solid transparent;
+	border-left: 5px solid #fff
+}
+#header-wrapper {
+	background: #fff;
+	width: 100%;
+	margin: 0
+}
+.sticky-wrapper.is-sticky #header-wrapper {
+	width: 100%!important;
+	z-index: 9
+}
+.full-wrapper, .header-home {
+	width: 100%;
+	position: relative
+}
+.header-home {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	clear: both
+}
+.full-wrapper {
+	background: #fff;
+	z-index: 9;
+	padding: 0 10px
+}
+.clear {
+	clear: both
+}
+.menus {
+	float: right;
+	margin: 0
+}
+.menus ul {
+	padding: 0;
+	margin: 0
+}
+.menus ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px
+}
+.menus ul li a {
+	font-size: 12px;
+	color: #686f83;
+	display: block;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 75px;
+	text-transform: uppercase
+}
+.logo {
+	float: left;
+	margin: 0
+}
+.two-banners {
+	margin: 0 auto 35px;
+	width: 81%;
+	position: relative;
+	display: block
+}
+.two-banners.banner2 {
+	margin-bottom: 18px
+}
+.two-banners img {
+	width: 100%;
+	display: block;
+	height: auto
+}
+.two-banners img.mob-show {
+	display: none
+}
+.two-banners.add {
+	font-size: 0
+}
+.two-banners.banner3 {
+	overflow: hidden;
+	text-transform: uppercase
+}
+.two-banners.luxry {
+	overflow: hidden;
+	position: relative
+}
+.two-banners.luxry img {
+	display: block;
+	height: auto;
+	width: 100%
+}
+.luxry-box-txt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	padding: 10px 10px 28px
+}
+.luxry-box-txt h2 {
+	margin: 0 0 11px;
+	color: #fff;
+	text-shadow: 2px 4px 5px rgba(0,0,0,.7);
+	font-size: 54px;
+	line-height: 56px;
+	text-transform: uppercase;
+	font-family: "Gill Sans MT"
+}
+.two-banners.luxry .btn-default {
+	font-size: 14px;
+	line-height: 20px;
+	border-color: #fff;
+	color: #fff;
+	padding: 6px 22px 6px 8px;
+	max-width: 220px;
+	text-transform: uppercase;
+	text-shadow: 0 0 2px rgba(0,0,0,.7)
+}
+.two-banners.luxry .btn-default:hover {
+	background: #6d548d;
+	border-color: #6d548d;
+	color: #fff;
+	text-shadow: none
+}
+.two-banners.luxry .btn-default:before, .two-banners.luxry .btn-default:hover:before {
+	border: 5px solid transparent;
+	border-left: 5px solid #fff
+}
+.two-banners.banner3 .alignleft {
+	width: 63.1%
+}
+.two-banners.banner3 .alignright {
+	width: 36.8%;
+	padding: 0 35px
+}
+.two-banners.banner3 .btn-default {
+	max-width: 258px
+}
+.two-banners.add.banner2 .alignleft {
+	width: 49.4%;
+	float: left;
+	position: relative
+}
+.two-banners.add.banner2 .alignright {
+	padding: 0;
+	float: right;
+	width: 49.3%;
+	position: relative
+}
+.two-banners .alignright .shop-btn-box {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+	background: #fff;
+	z-index: 999
+}
+.two-banners .alignright .shop-btn-box h2 {
+	font: 19px/26px "Gill Sans MT";
+	margin: 0 0 5px
+}
+.two-banners:after {
+	display: block;
+	clear: both
+}
+.two-banners .alignleft, .two-banners .alignright {
+	width: 49.4%;
+	display: inline-block;
+	vertical-align: middle
+}
+.two-banners .alignright {
+	font: 15px/23px "Gill Sans MT";
+	text-align: center;
+	padding: 0 50px;
+	letter-spacing: 1px;
+	text-transform: none
+}
+.two-banners .alignleft .banner2-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px 16px;
+	background: rgba(255,255,255,.2);
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	font: 700 14px/25px "Gill Sans MT";
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.7)
+}
+.two-banners .alignleft .banner2-caption .txt {
+	float: left;
+	width: 60%
+}
+.two-banners .alignleft .banner2-caption .btn-default {
+	float: right;
+	border-color: #fff;
+	color: #fff;
+	margin: 10px 0 0
+}
+.two-banners .alignleft .banner2-caption .btn-default:hover {
+	border-color: #6d548d;
+	text-shadow: none
+}
+.hoverbox, .ifno-middle h2 {
+	text-shadow: 2px 4px 5px rgba(0,0,0,.7)
+}
+.two-banners .alignleft .banner2-caption .btn-default:before {
+	border-color: transparent transparent transparent #fff
+}
+.two-banners .alignleft .image-holder.mobile-none, .two-banners .alignright .image-holder.mobile-none {
+	display: none
+}
+.two-banners .alignright .image-holder {
+	overflow: hidden;
+	margin: 0 0 18px
+}
+.two-banners .alignright .img-col {
+	width: 48.7%;
+	overflow: hidden;
+	margin: 0 0 17px;
+	position: relative
+}
+.two-banners .alignright .img-col img {
+	height: 100%
+}
+.two-banners .alignright .imgs-boxes {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+.two-banners .alignright .img-col .btn-shop {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: -50px;
+	transition: all .5s linear;
+	-webkit-transition: all .5s linear;
+	background: rgba(255,255,255,.1);
+	color: #fff;
+	font-weight: 600;
+	padding: 10px;
+	display: none
+}
+.two-banners .alignright .img-col:hover .btn-shop {
+	bottom: 0
+}
+.two-banners .alignright p {
+	margin: 0 0 35px
+}
+
+media (max-width: 767px){
+.two-banners .alignright p {
+	margin: 0 0 15px;
+	font-size: 6px;
+	display: inline;
+}}
+.two-banners.banner3 .alignright p {
+	text-align: center
+}
+.two-banners .btn-default {
+	display: block;
+	max-width: 182px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 7px 26px 7px 8px;
+	border: 1px solid #7f7f7f;
+	color: #333;
+	text-transform: uppercase;
+	font: 14px/18px "Gill Sans MT";
+	position: relative;
+	transition: all .3s ease;
+	letter-spacing: normal
+}
+.two-banners .btn-default {
+	display: none
+}
+.hm span.btn-default .txt1 {
+    display: none;
+}
+.two-banners .btn-default:before {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transition: all .3s ease;
+	transform: translateY(-50%);
+	border: 5px solid transparent;
+	border-left: 5px solid #333;
+	z-index: 10;
+	margin: 0 6px 0 0
+}
+.two-banners.add.embellished-banner .btn-default:hover:before{
+	border: 5px solid transparent;
+	border-left: 5px solid #fff;
+}
+.two-banners .btn-default:hover {
+	background: #6d548d;
+	color: #fff;
+	border-color: #6d548d
+}
+.two-banners .btn-default:hover:before {
+	border: 5px solid transparent;
+	border-left: 5px solid #fff
+}
+.two-banners .alignright .image-holder img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	width: auto
+}
+.social-area .newsletter .title, .two-banners .alignright .image-holder img.cushion-mobile {
+	display: none
+}
+.two-banners.banner4 {
+	position: relative;
+	padding: 24px 0 6px 25px;
+	z-index: 1;
+	text-transform: none
+}
+.two-banners.banner4 h1 {
+	font: 900 57px/53px "Gill Sans MT";
+	margin: 0 0 11px;
+	color: #6d548d;
+	letter-spacing: 0;
+	text-transform: uppercase
+}
+.two-banners.banner4 .alignright p {
+	text-align: left
+}
+.two-banners.banner4 p {
+	margin: 0 0 11px
+}
+.two-banners.banner4 .btn-default {
+	margin: 0 0 16px;
+	max-width: 162px
+}
+.two-banners.banner4:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 30%;
+	background: #fefaf1;
+	z-index: -1
+}
+.two-banners.banner4 .alignleft {
+	width: 54.3%;
+	float: right;
+	font-size: 14px;
+	line-height: 20px
+}
+.two-banners.banner4 .alignright {
+	text-align: left;
+	padding: 0;
+	width: 43%;
+	font-size: 15px;
+	line-height: 23px
+}
+.two-banners.banner4 .alignright img {
+	width: 100%
+}
+.two-banners.banner4 .alignleft .image-holder, .two-banners.banner4 .alignright .image-holder {
+	margin: 0 0 9px
+}
+.two-banners.add.embellished-banner .alignleft {
+	width: 63.3%;
+	float: left
+}
+.two-banners.add.embellished-banner .alignright {
+	padding: 0;
+	width: 35.4%;
+	float: right;
+	position: relative
+}
+.two-banners.add.embellished-banner .alignright h3 {
+	margin: -3px 0 21px;
+	font: 19px/26px "Gill Sans MT";
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+	color: #000
+}
+.two-banners.add.embellished-banner .alignright h3:before {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #000;
+	width: 28px;
+	height: 2px;
+	content: '';
+	margin: 8px 0 0
+}
+.two-banners.add.embellished-banner .alignright h3 strong {
+	font-style: italic;
+	font-weight: 900
+}
+.two-banners.badding-banner .bedding-info {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33.6%
+}
+.two-banners.badding-banner .alignleft, .two-banners.badding-banner .alignright {
+	width: 33.1%;
+	padding: 0
+}
+.two-banners.badding-banner .heading-holder {
+	margin: 0 0 35px
+}
+.two-banners.badding-banner .heading-holder img {
+	width: auto;
+	margin: 0 auto
+}
+.two-banners.badding-banner .btn-default {
+	max-width: 206px
+}
+.two-banners .kids-banner {
+	width: 45.5%;
+	float: left;
+	position: relative
+}
+.two-banners .kids-banner .image-holder {
+	padding: 0 0 0 23px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 0 10px
+}
+.two-banners .kids-banner .btn-default {
+	float: right;
+	padding: 4px 20px 3px 10px
+}
+.two-banners .kids-banner img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%
+}
+.two-banners .kids-banner .text {
+	font: 21px/28px "Gill Sans MT";
+	text-transform: uppercase;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transform: rotate(90deg);
+	margin: 0 0 45px -46px;
+	color: #333
+}
+.two-banners .kids-banner .text:before {
+	position: absolute;
+	left: -102%;
+	right: 100%;
+	top: 50%;
+	background: #333;
+	height: 2px;
+	transform: translateY(-50%);
+	margin: 0 10px 0 0
+}
+.two-banners .kids-banner .bedding-text {
+	overflow: hidden
+}
+.two-banners .kids-banner .bedding-text h2 {
+	float: left
+}
+.two-banners .kids-banner.banner-right {
+	float: right;
+	width: 51.9%
+}
+.two-banners .kids-banner.banner-right .image-holder {
+	padding: 0;
+	float: left;
+	width: 89.3%
+}
+.two-banners .kids-banner .dining-info {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #eee8dd;
+	text-align: center;
+	padding: 20px 18px 15px;
+	width: 256px;
+	margin: 0 0 -21px;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-transform: none
+}
+.two-banners .kids-banner .dining-info p {
+	margin: 0 0 19px
+}
+.two-banners .kids-banner .dining-heading {
+	margin: 0 0 12px;
+	padding: 0 0 12px;
+	overflow: hidden;
+	border-bottom: 1px solid #cba875;
+	text-transform: uppercase;
+	color: #6d548d
+}
+.two-banners .kids-banner .dining-heading .heading-text {
+	font: 16px/20px "Gill Sans MT";
+	margin: 0 0 11px;
+	display: block
+}
+.two-banners .kids-banner.banner-right .image-holder img {
+	margin: 0
+}
+.two-banners .kids-banner.banner-right .btn-default {
+	float: none;
+	color: #333;
+	max-width: 133px;
+	padding: 7px 25px 7px 10px
+}
+.two-banners .kids-banner.banner-right .btn-default:hover {
+	color: #fff;
+	background: #6d548d;
+	border-color: #6d548d
+}
+.two-banners .kids-banner.banner-right h2 {
+	font: 38px/46px "Gill Sans MT";
+	margin: 0;
+	color: #6d548d
+}
+.two-banners.add.embellished-banner .btn-default {
+	display: block;
+	left: 0;
+	max-width: 220px;
+	right: 0;
+	top: 50px;
+	background:#fff;
+	z-index: 99;
+	position: absolute;
+	letter-spacing: normal
+}
+.two-banners.add.embellished-banner .btn-default:hover{
+	color:#fff;
+	background:#6d548d;
+}
+.hm{
+	max-width: 284px;
+	text-align: center;
+	padding: 0 0 10px;
+	float: right;
+		
+}
+.hm img{
+	padding: 0 0 10px;
+}
+.hm .btn-default{
+	display: block;
+	margin: auto !important;
+	min-width: 180px;
+}
+#bress{
+       height: 80vh;
+       position: absolute;
+       top: 0; 
+       bottom: 0;
+       width: auto;
+       left: 60px;
+}
+
+@media all and (max-width:1450px) {
+.two-banners.banner4 h1 {
+	font: 900 40px/41px "Gill Sans MT"
+}
+.two-banners.banner4 .alignleft {
+	width: 56.3%
+}
+.two-banners.banner4 .alignright {
+	width: 39.4%
+}
+.two-banners.banner4 p br {
+	display: none
+}
+}
+.social-area {
+	position: relative;
+	padding: 21px 0 20px;
+	margin: 0 auto;
+	max-width: 75%
+}
+
+@media all and (max-width:1399px) {
+.two-banners .alignright .img-col {
+	margin-bottom: 10px
+}
+}
+
+@media all and (max-width:1150px) {
+.slick-arrow {
+	left: 26px
+}
+.slick-arrow.slick-next {
+	left: auto;
+	right: 26px
+}
+.two-banners .alignleft .banner2-caption {
+	font-size: 11px;
+	line-height: 22px
+}
+.two-banners .alignleft .banner2-caption .btn-default {
+	font-size: 10px;
+	margin-top: 6px
+}
+.two-banners .alignright {
+	font-size: 13px;
+	line-height: 21px
+}
+.two-banners.banner3 .alignright {
+	padding: 0 22px
+}
+.two-banners .kids-banner .bedding-text h2 {
+	max-width: 180px
+}
+.two-banners .kids-banner .btn-default {
+	padding: 3px 24px 4px 10px;
+	font-size: 12px
+}
+.two-banners .kids-banner.banner-right h2 {
+	font: 27px/30px "Gill Sans MT"
+}
+.two-banners .kids-banner .dining-heading .heading-text {
+	font: 14px/18px "Gill Sans MT";
+	margin: 0 0 5px
+}
+.social-area {
+	max-width: 90%
+}
+.two-banners.banner4 .alignright {
+	width: 36.4%
+}
+.two-banners.banner4 h1 {
+	font: 900 32px/32px "Gill Sans MT"
+}
+.two-banners.banner4 .alignleft {
+	width: 59.3%
+}
+.luxry-box-txt h2 {
+	font-size: 45px;
+	line-height: 46px
+}
+}
+
+@media all and (max-width:767px) {
+	.hm span.btn-default{
+		display: block;
+	}	
+.shop-button {
+	line-height: 28px
+}
+.two-banners .alignright .image-holder img.cushion-mobile {
+	display: block
+}
+.two-banners .alignright .image-holder img.cushion, .two-banners.banner4 p br {
+	display: none
+}
+.social-area {
+	max-width: inherit
+}
+.luxry-box-txt {
+	padding: 10px
+}
+.luxry-box-txt h2 {
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 5px
+}
+.two-banners.luxry {
+	margin-bottom: 20px
+}
+.two-banners.luxry .btn-default {
+	font-size: 9px;
+	line-height: 12px;
+	text-transform: uppercase;
+	max-width: 102px
+}
+}
+.social-area:after {
+	display: block;
+	clear: both
+}
+.social-area .social-networks {
+	list-style: none;
+	padding: 11px 0 0;
+	margin: 0;
+	float: left;
+	max-width: 270px
+}
+.social-area .social-networks li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #333
+}
+.social-area .social-networks li a {
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	text-align: center;
+	color: rgba(51,51,51,.8)
+}
+.social-area .social-networks li a:before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: fontello;
+	content: '\e801';
+	font-size: 20px
+}
+.social-area .social-networks li a:hover:before {
+	content: '\e800'
+}
+.social-area .social-networks li.twitter a:before {
+	content: '\e806'
+}
+.social-area .social-networks li.twitter a:hover:before {
+	content: '\e807'
+}
+.social-area .social-networks li.instagram a:before {
+	content: '\e803'
+}
+.social-area .social-networks li.instagram a:hover:before {
+	content: '\e802'
+}
+.social-area .social-networks li.pinterest a:before {
+	content: '\e805'
+}
+.social-area .social-networks li.pinterest a:hover:before {
+	content: '\e804'
+}
+.social-area .newsletter {
+	float: right;
+	width: 35%
+}
+
+@media all and (max-width:1150px) {
+.social-area .newsletter {
+	width: 43%
+}
+}
+
+.social-area .newsletter .newsletter-email {
+	position: relative;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset
+}
+.social-area .newsletter input[type=text] {
+	border: 1px solid #9aa4b0;
+	color: #000;
+	margin: 0;
+	padding: 4px 8px;
+	background: #fff;
+	height: 40px;
+	width: 100%;
+	font-size: 13px;
+	line-height: 18px
+}
+.social-area .newsletter .newsletter-subscribe-button {
+	background: 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: auto;
+	padding: 0;
+	width: 110px;
+	letter-spacing: 1px;
+	border-left-width: 1px;
+	border-left-color: #9aa4b0;
+	color: rgba(0,0,0,.6)
+}
+.social-area .newsletter .newsletter-subscribe-button:hover {
+	background: #6d548d;
+	border-left-color: #6d548d;
+	color: #fff
+}
+.back-to-top {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0 20px 50px 0;
+	box-shadow: 0 1px 10px rgba(0,0,0,.4);
+	opacity: 0;
+	width: 48px;
+	height: 48px;
+	visibility: hidden;
+	transition: all 1s ease;
+	font-size: 11px;
+	line-height: 12px;
+	text-align: center;
+	display: block;
+	color: #333;
+	padding: 18px 7px 5px;
+	background: #fff;
+	z-index: 995
+}
+.back-to-top:before {
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: fontello;
+	content: '\e808';
+	font-size: 14px;
+	color: rgba(51,51,51,.8)
+}
+.ifno-middle h2, .ifno-middle p {
+	color: #fff;
+	font-family: "Gill Sans MT";
+	text-transform: uppercase
+}
+.currency-selector {
+	padding: 0;
+	margin: 0
+}
+.currency-selector select {
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+.currency-selector select:focus {
+	outline: 0
+}
+.back-to-top img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%
+}
+.btn-show .back-to-top {
+	opacity: 1;
+	visibility: visible
+}
+.banners img {
+	width: 100%
+}
+.banners {
+	position: relative;
+	text-align: center
+}
+img {
+	max-width: 100%;
+	display: block
+}
+.banner1 .ifno-middle {
+	max-width: 500px
+}
+.ifno-middle {
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 96%;
+	max-width: 515px
+}
+.ifno-middle h2 {
+	font-size: 50px;
+	margin: 0 0 25px;
+	line-height: normal;
+	padding: 20px 0;
+	position: relative;
+	letter-spacing: 3px
+}
+.ifno-middle h2:after, .ifno-middle h2:before {
+	position: absolute;
+	background: #fff;
+	height: 1px;
+	content: "";
+	left: 0;
+	right: 0
+}
+.ifno-middle h2:before {
+	top: 0
+}
+.ifno-middle h2:after {
+	bottom: 0
+}
+.banner1 .ifno-middle h2:after, .banner1 .ifno-middle h2:before {
+	width: 300px;
+	margin: auto
+}
+.ifno-middle p {
+	margin: 10px 0 0;
+	font-size: 14px;
+	line-height: 20px
+}
+.middle-info2 {
+	width: 96%;
+	padding: 150px 0;
+	max-width: 685px;
+	margin: auto
+}
+.middle-info2 h3 {
+	color: #6d6c70;
+	font-family: "Gill Sans MT";
+	font-size: 20px;
+	position: relative;
+	padding-bottom: 12px
+}
+.flexslider .slides>li .middle-info h2, .flexslider .slides>li .middle-info p, .middle-info2 h4, .middle-info2 p {
+	color: #fff;
+	font-family: "Gill Sans MT"
+}
+.middle-info2 h3:after {
+	content: "";
+	border-bottom: 1px solid #6d6c70;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 270px;
+	margin: auto
+}
+.middle-info2 h4 {
+	font-size: 46px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 3px;
+	line-height: 50px
+}
+.middle-info2 h4:before {
+	content: "";
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px
+}
+.middle-info2 h4:after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px
+}
+.middle-info2 p {
+	font-size: 17px;
+	line-height: 24px;
+	margin: 15px 0
+}
+.three-banners {
+	margin: 30px auto 0;
+	width: 96%;
+	padding-bottom: 29px
+}
+.flexslider .slides>li .middle-info {
+	top: auto;
+	bottom: 10%;
+	position: absolute;
+	width: auto;
+	transform: none
+}
+.flexslider .slides>li .middle-info h1 {
+	font-family: "Gill Sans MT";
+	font-size: 91px;
+	line-height: 91px;
+	padding: 0;
+	position: relative
+}
+.flexslider .slides>li .middle-info h2 {
+	font-size: 77px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 77px
+}
+.flexslider .slides>li .middle-info p {
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 12px 0 20px
+}
+.flexslider .slides>li .middle-info h1:before {
+	content: "";
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0
+}
+.flexslider .slides>li .middle-info h1:after {
+	content: "";
+	background: #000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0
+}
+.banner2.banners .ifno-middle {
+	bottom: 15px;
+	left: 0;
+	margin: auto;
+	max-width: 515px;
+	position: absolute;
+	right: 0;
+	top: auto;
+	transform: none;
+	width: 96%
+}
+.about-page {
+	overflow: hidden
+}
+.about-page .two-banners {
+	font-size: 0;
+	width: 78.3%
+}
+.about-page .two-banners.welcome-banner {
+	background: #e6e7e8;
+	padding: 82px 3.7% 67px 4.7%;
+	margin: 0 auto 27px
+}
+.about-page .two-banners .alignleft, .about-page .two-banners .alignright {
+	font: 300 14px/24px "Gill Sans MT";
+	text-align: justify
+}
+.about-page .two-banners .alignleft {
+	width: 52.1%;
+	margin: 0 3.9% 0 0;
+	letter-spacing: -.8px
+}
+.about-page .two-banners .alignright {
+	width: 44%;
+	padding: 0
+}
+.about-page .two-banners.welcome-banner .alignright {
+	width: 34.9%
+}
+.about-page .two-banners.welcome-banner .alignleft {
+	width: 54.8%;
+	margin: 0 6.9% 0 0;
+	letter-spacing: 0
+}
+.about-page .two-banners.collection-area .alignleft {
+	width: 46.8%;
+	margin: 0 2% 0 0
+}
+.about-page .two-banners.collection-area .alignright {
+	width: 51%
+}
+.about-page .two-banners img {
+	width: auto;
+	max-width: 100%;
+	margin: 0 auto
+}
+.about-page .two-banners h1, .about-page .two-banners h2 {
+	font: 400 37px/40px "Gill Sans MT", Georgia, Serif;
+	color: #333;
+	text-transform: uppercase;
+	margin: 0 0 15px
+}
+.about-page .two-banners h2 {
+	font: 400 28px/32px "Gill Sans MT", Georgia, Serif;
+	margin: 0;
+	word-spacing: 1px
+}
+.about-page .two-banners p {
+	margin: 0 0 36px
+}
+.about-page .two-banners p:last-child {
+	margin: 0
+}
+.about-page .two-banners.welcome-banner p {
+	margin: 0 0 15px
+}
+.about-page .two-banners.welcome-banner h1 {
+	letter-spacing: 1px
+}
+.about-page .two-banners.welcome-banner h2 {
+	line-height: 40px;
+	letter-spacing: 1px;
+	word-spacing: 0;
+	font-family: "Gill Sans MT";
+	font-weight: 400;
+	color: #333
+}
+.about-page .two-banners.collection-area h2 {
+	text-transform: none;
+	margin: 0 0 24px
+}
+.about-page .two-banners.collection-area h3 {
+	font: 700 14px/24px "Gill Sans MT";
+	margin: 0;
+	text-transform: uppercase;
+	color: #292929
+}
+.about-page .two-banners.collection-area p {
+	margin: 0 0 20px
+}
+.about-page .two-banners blockquote {
+	margin: 0;
+	display: block;
+	text-align: center;
+	font: 400 24px/30px "Gill Sans MT", Georgia, Serif;
+	letter-spacing: 1px;
+	padding: 0 19%
+}
+@media all and (min-width:601px) {
+    #slide1{
+    background: url(../images/main-dk.jpg);
+}
+}
+@media all and (max-width:600px) {
+#mb-slide, .banner1, .banner2, .banner3, .banner4 {
+	width: 100%
+}
+#slide1{
+    background: url(../images/main-mb.jpg);
+}
+#bress{
+    display: none;
+}
+.ifno-middle h2 {
+	font-size: 25px!important
+}
+.banners {
+	margin-bottom: 10px
+}
+.banner3.banners>a {
+	display: inline-block;
+	margin: 0;
+	width: 49%
+}
+.header-slider, .inner-slide, .inner-slide a {
+	height: 60vh
+}
+.middle-info2 {
+	padding: 20px 0
+}
+.middle-info2 h4 {
+	line-height: 34px
+}
+.banners img {
+	width: 100%
+}
+.middle-info {
+	width: 96%;
+	max-width: 555px;
+	position: absolute
+}
+.middle-info p {
+	font-size: 13px!important
+}
+#header-wrapper .header-section {
+	max-width: 100%;
+	width: 96%;
+	margin: auto
+}
+#header-wrapper .header-home {
+	max-width: 100%;
+	width: 100%
+}
+}
+
+@media all and (max-width:767px) {
+.btn-filter {
+	display: block
+}
+.filters-holder {
+	position: relative;
+	padding: 20px 8px 16px
+}
+.filters-frame {
+	background: #fff;
+	display: none;
+	position: absolute;
+	left: 8px;
+	right: 8px
+}
+.product-filter .filter-title {
+	border: 0;
+	padding: 25px 10px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #000
+}
+.product-filter .filter-title::after {
+	margin-right: 10px
+}
+.inline-menu {
+	background: #fff;
+	border: 0;
+	width: 100%!important;
+	display: block;
+	border-bottom: 1px solid #ababab;
+	display: none
+}
+.two-banners.banner4 h1 br, .two-banners.banner4 p {
+	display: none
+}
+.inline-menu:last-child {
+	border-bottom: 0
+}
+.product-filter .filter-title:after {
+	content: url(../images/down-arrow2.png);
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px
+}
+.product-filter:hover .filter-title:after {
+	content: url(../images/up-arrow2.png)
+}
+.product-filter .group.price-range-group li strong {
+	font-size: 14px;
+	line-height: 15px;
+	padding: 0 10px
+}
+.two-banners .alignright p {
+	margin: 0 0 15px;
+	display: none
+}
+.two-banners .alignleft, .two-banners .alignright {
+	margin: 0 0 20px;
+	width: 55%
+}
+.two-banners.add.embellished-banner .alignleft {
+	width: 55%
+}
+.two-banners .alignright {
+	font-size: 14px;
+	line-height: 20px;
+	width: 45%;
+	padding: 0 0 0 7px
+}
+.two-banners {
+	width: 100%;
+	padding: 0 10px
+}
+.two-banners .alignright .image-holder {
+	margin: 0 auto 10px;
+	max-width: 100px
+}
+.two-banners .btn-default {
+	font-size: 10px;
+	max-width: 120px;
+	line-height: 15px;
+	padding: 7px 20px 7px 8px
+}
+.two-banners.banner3 .btn-default {
+	max-width: 117px
+}
+.two-banners.banner4 {
+	padding: 20px 10px 0;
+	margin-top: 0
+}
+.two-banners.banner4:before {
+	right: 0
+}
+.two-banners.banner4 h1 {
+	font-size: 20px;
+	line-height: 26px;
+	margin: 0 0 15px;
+	position: absolute;
+	left: 10px;
+	bottom: 0
+}
+.two-banners.banner4 .btn-default {
+	max-width: 125px;
+	margin: 0 0 15px;
+	position: absolute;
+	right: 10px;
+	bottom: 0
+}
+.two-banners.banner4 .alignleft .image-holder, .two-banners.banner4 .alignright .image-holder {
+	max-width: inherit
+}
+.two-banners.add.embellished-banner .alignright h3 {
+	font-size: 12px
+}
+.two-banners.add.embellished-banner .btn-default {
+	display: block
+}
+.two-banners .alignright .img-col {
+	width: 23%
+}
+.about-page .two-banners {
+	width: 100%
+}
+.about-page .two-banners .alignleft, .about-page .two-banners .alignright {
+	width: 100%;
+	float: none;
+	margin: 0;
+	font-size: 12px;
+	line-height: 20px
+}
+.about-page .two-banners.welcome-banner .alignleft, .about-page .two-banners.welcome-banner .alignright {
+	float: none;
+	width: 100%;
+	margin: 0
+}
+.about-page .two-banners h1 {
+	font-size: 22px;
+	line-height: 28px;
+	margin: 0 0 10px
+}
+.about-page .two-banners h2 {
+	font-size: 20px;
+	line-height: 26px;
+	margin: 0 0 10px
+}
+.about-page .two-banners.welcome-banner h2 {
+	line-height: 26px;
+	margin: 0 0 15px
+}
+.about-page .two-banners p, .about-page .two-banners p:last-child {
+	margin: 0 0 20px
+}
+.about-page .two-banners.welcome-banner {
+	padding: 60px 3.7% 20px 4.7%
+}
+#mb-slide {
+	text-align: center
+}
+#mb-slide .middle-info {
+	top: auto;
+	bottom: 15px;
+	position: absolute;
+	width: auto;
+	transform: none
+}
+.banner3, .banner4 {
+	position: relative
+}
+#mb-slide .middle-info h1 {
+	font-family: Bodoni-Bk-BT;
+	font-size: 35px;
+	line-height: 35px;
+	padding: 0;
+	position: relative
+}
+#mb-slide .middle-info h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Open-Sans-Light;
+	font-weight: 400;
+	line-height: 25px
+}
+#mb-slide .middle-info p {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 5px 0 10px
+}
+.middle-info2 h3, .middle-info2 h4 {
+	font-size: 25px
+}
+.middle-info2 p {
+	font-size: 13px
+}
+.banner3 .ifno-middle h2, .ifno-middle h2 {
+	font-size: 18px
+}
+.ifno-middle p {
+	font-size: 10px
+}
+.middle-info h1 {
+	font-size: 25px
+}
+.middle-info p {
+	font-size: 15px;
+	margin: 10px 0;
+	line-height: 20px
+}
+.shop-button {
+	font-size: 9px;
+	line-height: 12px;
+	max-width: 102px;
+	min-width: 102px;
+	padding: 7px 20px 7px 8px
+}
+.header-slider .flex-control-nav {
+	bottom: 7px;
+	text-align: center
+}
+.header-slider {
+	margin: 0
+}
+.header-logo {
+	margin: 0 auto;
+	max-width: 160px;
+	top: 0;
+	padding: 20px 0
+}
+.full-wrapper {
+	padding-top: 10px
+}
+.two-banners {
+	margin: 0 auto;
+	max-width: 480px
+}
+.three-banners {
+	margin: 10px auto 0;
+	padding-bottom: 0;
+	width: 96%;
+	overflow: hidden
+}
+.banner4 {
+	width: 100%;
+	float: none;
+	margin-top: 10px
+}
+.banner3 {
+	float: none
+}
+}
+
+@media all and (max-width:1000px) {
+.slick-arrow {
+	left: 20px;
+	width: 25px;
+	height: 25px;
+	background-size: 25px auto
+}
+.slick-arrow.slick-next {
+	left: auto;
+	right: 20px;
+	background-size: 25px auto
+}
+.about-page .two-banners h1 {
+	font-size: 26px;
+	line-height: 34px
+}
+.about-page .two-banners h2 {
+	font-size: 20px;
+	line-height: 30px
+}
+.about-page .two-banners.welcome-banner h2 {
+	line-height: 30px
+}
+.about-page .two-banners .alignleft, .about-page .two-banners .alignright {
+	font-size: 12px;
+	line-height: 20px
+}
+.about-page .two-banners.welcome-banner {
+	padding: 60px 2% 25px 3%
+}
+.about-page .two-banners p {
+	margin: 0 0 15px
+}
+.about-page .two-banners blockquote {
+	padding: 0 5%
+}
+.about-page .two-banners.collection-area h2 {
+	margin: 0 0 10px
+}
+body.menumobile .flexslider .slides>li .middle-info {
+	display: none
+}
+.sticky-wrapper {
+	height: auto!important
+}
+.header-slider {
+	margin-top: 0
+}
+.flexslider .slides>li .middle-info h1 {
+	font-size: 35px;
+	line-height: 40px
+}
+.flexslider .slides>li .middle-info h2 {
+	font-size: 28px;
+	line-height: 28px
+}
+.flexslider .slides>li .middle-info p {
+	font-size: 17px
+}
+.two-banners .kids-banner.banner-right h2 {
+	font-size: 22px;
+	line-height: 26px
+}
+.two-banners .kids-banner .dining-heading .heading-text {
+	font-size: 14px;
+	margin: 0 0 8px
+}
+.two-banners .kids-banner .dining-info {
+	padding: 15px
+}
+.two-banners .kids-banner .dining-heading {
+	padding: 0 20px 8px;
+	margin: 0 -20px 8px
+}
+.two-banners .btn-default {
+	font-size: 12px
+}
+.two-banners .kids-banner .dining-info p {
+	margin: 0 0 10px
+}
+.two-banners .kids-banner.banner-right .btn-default {
+	padding: 4px 25px 5px 10px;
+	max-width: 120px
+}
+.two-banners .kids-banner .bedding-text h2 {
+	width: 52%;
+	margin: 6px 0 0
+}
+.homepage .footer-bottom {
+	width: 96%
+}
+.newsletter-email {
+	display: block
+}
+.social-area .newsletter .newsletter-subscribe-button {
+	margin: 0
+}
+.footer-logo {
+	text-align: center
+}
+.footer-logo img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%
+}
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1100px) {
+.ifno-middle h2 {
+	font-size: 28px
+}
+.two-banners.badding-banner .heading-holder {
+	max-width: 200px;
+	margin: 0 auto 35px
+}
+.two-banners.add.embellished-banner .alignright .btn-default {
+	display: block;
+	top: 43px;
+	padding: 4px 26px 4px 8px;
+	font-size: 11px
+}
+}
+
+@media only screen and (min-width:1001px) and (max-width:1250px) {
+.about-page .two-banners h1, .about-page .two-banners h2 {
+	text-align: left
+}
+.about-page .two-banners h1 {
+	font-size: 30px
+}
+.about-page .two-banners h2 {
+	font-size: 22px
+}
+.flexslider .slides>li .middle-info h1 {
+	font-size: 70px;
+	line-height: 70px
+}
+.flexslider .slides>li .middle-info h2 {
+	font-size: 55px;
+	line-height: 55px
+}
+.two-banners.add.embellished-banner .alignright h3 {
+	font-size: 14px
+}
+}
+
+@media all and (min-width:1100px) {
+.banner1 .ifno-middle h2:after, .banner1 .ifno-middle h2:before {
+	width: 415px;
+	margin: auto
+}
+.banner4 .ifno-middle h2 {
+	letter-spacing: 14px
+}
+.banner3 .ifno-middle h2 {
+	letter-spacing: 10.5px
+}
+.banner2.banners .ifno-middle h2 {
+	font-size: 30px;
+	letter-spacing: 8px
+}
+.middle-info2 h4 {
+	letter-spacing: 11px
+}
+.flexslider .slides>li .middle-info h1:after, .flexslider .slides>li .middle-info h1:before {
+	width: 480px;
+	margin: auto
+}
+.flexslider .slides>li .middle-info h1 {
+	letter-spacing: 13px
+}
+.header-slider.darkHeader {
+	height: 197px;
+	overflow: hidden;
+	transition: all 1s linear
+}
+.chrome .header-slider.darkHeader {
+	height: 242px
+}
+.header-slider.darkHeader .inner-slide {
+	height: 0;
+	transition: all 3s ease
+}
+}
+#mb-slide {
+	display: none
+}
+
+@media all and (max-width:1000px) {
+.header-logo {
+	padding: 19px 0 19px;
+	position: static;
+	max-width: 140px
+}
+.menu-toggle {
+	top: 0;
+}
+.menumobile .top-menu {
+	padding: 0 30px 15px;
+}
+#header-wrapper .header-section {
+	width: 100%;
+	padding: 0 10px
+}
+.two-banners {
+	width: 96%
+}
+.two-banners.banner4 {
+	padding: 30px 10px 20px;
+	margin: 0 auto 20px
+}
+.two-banners.add.embellished-banner .alignright h3 {
+	font-size: 13px;
+	line-height: 16px
+}
+.two-banners.add.embellished-banner .alignright .btn-default {
+	top: 34px
+}
+}
+
+@media all and (max-width:480px) {
+#header-wrapper .header-section {
+	padding: 0
+}
+}
+
+@media all and (max-width:767px) {
+.two-banners .btn-default {
+	font-size: 9px;
+	line-height: 12px
+}
+.two-banners .kids-banner.banner-right .btn-default {
+	max-width: 102px;
+	padding: 7px 25px 7px 10px;
+	font-size: 9px;
+	line-height: 12px
+}
+.about-page .two-banners blockquote {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0;
+	padding: 20px 5%
+}
+.social-area {
+	max-width: 290px;
+	margin: 0 auto
+}
+.two-banners {
+	width: 100%
+}
+.back-to-top {
+	margin: 0 10px 50px 0;
+	font-size: 10px;
+	line-height: 11px;
+	height: 45px;
+	width: 45px
+}
+.back-to-top:before {
+	font-size: 13px
+}
+.two-banners.add.embellished-banner .alignright .btn-default {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto
+}
+.two-banners.add.embellished-banner .alignright h3 {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	font-size: 11px
+}
+.two-banners.add.banner2 .alignleft {
+	float: none;
+	width: 100%;
+	overflow: hidden
+}
+.two-banners img.mob-show {
+	display: block
+}
+.two-banners .alignleft .banner2-caption .txt br, .two-banners.add.banner2 .alignleft img.mob-none, .two-banners.badding-banner .alignleft {
+	display: none
+}
+.two-banners .alignleft .banner2-caption {
+	overflow: hidden;
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: capitalize;
+	padding: 7px 8px
+}
+.two-banners .alignleft .banner2-caption .txt {
+	width: 60%;
+	margin-top: 9px
+}
+.two-banners.banner4 h1 {
+	font-size: 16px
+}
+.two-banners.banner4 .btn-default {
+	width: 110px
+}
+.two-banners.add.banner2 .alignright {
+	width: 100%;
+	float: none;
+	display: none
+}
+.two-banners.badding-banner .bedding-info, .two-banners.banner3 .alignright {
+	padding: 0 4px 0 0;
+	width: 38.3%
+}
+.two-banners .alignright .image-holder {
+	max-width: 65px
+}
+.two-banners .btn-default, .two-banners.badding-banner .btn-default, .two-banners.luxry .btn-default {
+	max-width: 102px
+}
+.two-banners.banner3 .btn-default {
+	max-width: 102px;
+	min-width: inherit
+}
+.two-banners .kids-banner .image-holder, .two-banners.banner2 {
+	margin-bottom: 0
+}
+.two-banners.banner3 .alignleft {
+	width: 61.7%
+}
+.two-banners .kids-banner.banner-right, .two-banners.add.embellished-banner .alignleft, .two-banners.add.embellished-banner .alignright, .two-banners.badding-banner .alignleft, .two-banners.badding-banner .alignright, .two-banners.badding-banner .bedding-info {
+	float: none
+}
+.two-banners .kids-banner.banner-right {
+	margin-bottom: 0;
+	width: 49%;
+	float: right;
+}
+.two-banners .kids-banner {
+	width: 48%;
+	margin: 0;
+}
+.two-banners .kids-banner .text {
+	display: none;
+}
+.two-banners .kids-banner .image-holder {
+	padding: 0;
+}
+.two-banners .kids-banner.banner-right::after {
+	display: block;
+	clear: both;
+	content: ""
+}
+.two-banners .kids-banner.banner-right .image-holder {
+	width: 100%;
+	overflow: hidden;
+	float: none
+}
+.two-banners .kids-banner .dining-info {
+	position: relative;
+	right: auto;
+	bottom: auto;
+	margin: 0
+}
+.two-banners.badding-banner .alignright {
+	width: 61.7%;
+	padding: 0 0 0 10px
+}
+.two-banners .btn-default {
+	min-width: 102px
+}
+.two-banners.add.embellished-banner .alignright {
+	width: 38%;
+	padding: 0 0 0 8px
+}
+.two-banners.add.embellished-banner .alignright .img-embellisged {
+	display: none
+}
+.two-banners .kids-banner, .two-banners.badding-banner .bedding-info, .two-banners.badding-banner .heading-holder {
+	margin: 0 0 20px
+}
+.two-banners .kids-banner .dining-info, .two-banners .kids-banner .bedding-text {
+	padding: 10px;
+	width: 100%;
+}
+.two-banners .kids-banner.banner-right h2 {
+	font-size: 16px;
+	line-height: 24px
+}
+.two-banners .kids-banner.banner-right h2 br {
+	display: none
+}
+.two-banners .kids-banner .dining-heading .heading-text {
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0 0 10px;
+	display: none
+}
+.two-banners .kids-banner .dining-heading {
+	padding: 0 10px 7px;
+	margin: 0 -10px;
+	border-bottom: 0
+}
+.two-banners .kids-banner .dining-info p {
+	margin: 0 0 10px;
+	display: none
+}
+#mb-slide, .newsletter-email {
+	display: block
+}
+.two-banners .kids-banner .bedding-text h2 {
+	width: 120px;
+	margin: 5px auto 15px;
+	float: none;
+}
+.two-banners .kids-banner .btn-default {
+	float: none;
+	font-size: 9px;
+	line-height: 12px;
+	max-width: 125px;
+	padding: 7px 25px 7px 10px;
+}
+.two-banners .kids-banner .bedding-text {
+	background: #eee8dd;
+}
+.two-banners .kids-banner .bedding-text h2 img {
+	margin: 0 auto;
+}
+.two-banners.banner4 .alignleft, .two-banners.banner4 .alignright {
+	width: 48%
+}
+.social-area .social-networks {
+	width: 100%;
+	padding: 0;
+	float: none;
+	max-width: inherit;
+	margin: 0 0 20px
+}
+.social-area .social-networks li {
+	margin: 0 6px
+}
+.social-area .newsletter {
+	width: 100%;
+	float: none
+}
+.social-area .newsletter .newsletter-subscribe-button {
+	margin: 0
+}
+.footer-upper {
+	margin: 0 0 20px
+}
+.footer-logo {
+	text-align: center
+}
+.footer-logo img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto
+}
+.footer-lower {
+	padding: 5px 10px;
+	margin: 0 auto;
+	width: 96%;
+    margin-bottom: 45px;
+}
+#mb-slide {
+	height: auto;
+	margin: 0 auto 10px
+}
+#dec-slide {
+	display: none
+}
+.full-wrapper {
+	padding-top: 20px;
+	padding-bottom: 30px
+}
+.banners {
+	margin-bottom: 10px
+}
+}
+
+@media all and (max-width:479px) {
+.slick-arrow {
+	left: 15px;
+	width: 20px;
+	height: 20px;
+	background-size: 20px auto
+}
+.slick-arrow.slick-next {
+	left: auto;
+	right: 15px;
+	background-size: 20px auto
+}
+}
+@media all and (min-width:768px) {
+.footer-lower {
+    margin-bottom: 0;
+}
+.two-banners .btn-default .txt2 {
+    display: none;
+}
+.two-banners .btn-default {
+	display: block;
+}
+.hm span.btn-default .txt1 {
+    display: block;
+}
+.hm span.btn-default .txt2 {
+    display: none;
+}
+}
